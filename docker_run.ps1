@@ -6,7 +6,6 @@
 
 docker run -it --rm `
   -v "D:\SLAM\IMU_pre_python:/app"   `
-  -v "D:\SLAM\dataset:/app/data"   `
   -w /app -e MPLBACKEND=Agg imu_pre:v1 bash
 
 # MPLBACKEND=Agg 用于无显示环境下生成并保存图像。
